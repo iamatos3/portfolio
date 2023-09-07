@@ -1,5 +1,6 @@
 import heroImg from '../assets/hero.svg';
 import { FaGithubSquare, FaLinkedin, FaInstagramSquare } from 'react-icons/fa';
+import { BsDownload } from 'react-icons/bs';
 
 const Hero = () => {
   return (
@@ -24,6 +25,9 @@ const Hero = () => {
             </a>
             <a href='#' target="_blank">
               <FaInstagramSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
+            </a>
+            <a href='#' download>
+              <BsDownload className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
           </div>
         </article>
