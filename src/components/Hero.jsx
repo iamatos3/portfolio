@@ -1,4 +1,4 @@
-import heroImg from '../assets/hero.svg';
+import heroImg from '../assets/portrait.jpg';
 import { FaGithubSquare, FaLinkedin, FaInstagramSquare } from 'react-icons/fa';
 import { BsDownload } from 'react-icons/bs';
 
@@ -17,22 +17,22 @@ const Hero = () => {
             Turning ideas into interactive reality
           </p>
           <div className='flex gap-x-4 mt-4'>
-            <a href='#' target="_blank">
+            <a href='#' title='GitHub' target="_blank">
               <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='#' target="_blank">
+            <a href='#' title='LinkedIn' target="_blank">
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='#' target="_blank">
+            <a href='#' title='Instagram' target="_blank">
               <FaInstagramSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='#' download>
+            <a href='#' title='Download Resume' download>
               <BsDownload className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
           </div>
         </article>
         <article className='hidden md:block'>
-          <img src={heroImg} className='h-80 lg:h-96' />
+          <img src={heroImg} className='border-2 border-black rounded-lg w-3/4 max-w-sm' />
         </article>
       </div>
     </div>
