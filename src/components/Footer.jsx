@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="text-center py-4">
         <div className="flex flex-col items-center justify-center">
           <p>
-            Copyright &copy; Ian Matos Development
+            Copyright &copy; Ian Matos
           </p>
           <p>
             <span className="text-emerald-900">{new Date().getFullYear()}</span> All Rights Reserved

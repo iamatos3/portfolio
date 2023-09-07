@@ -1,6 +1,11 @@
 import { links } from "../data";
 
 const Navbar = () => {
+  const refreshPage = (e) => {
+    e.preventDefault();
+    window.location.reload();
+  };
+
   return (
     <nav className="bg-emerald-100">
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
@@ -15,6 +20,7 @@ const Navbar = () => {
                 key={id}
                 href={href}
                 className="capitalize text-lg tracking-wide hover:text-emerald-600 duration-300"
+                onClick={id === 1 ? refreshPage : null}
               >
                 {text}
               </a>

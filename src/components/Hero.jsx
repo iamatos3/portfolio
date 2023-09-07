@@ -17,13 +17,13 @@ const Hero = () => {
             Turning ideas into interactive reality
           </p>
           <div className='flex gap-x-4 mt-4'>
-            <a href='#' title='GitHub' target="_blank">
+            <a href='https://github.com/iamatos3/' title='GitHub' target="_blank">
               <FaGithubSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='#' title='LinkedIn' target="_blank">
+            <a href='https://www.linkedin.com/in/iamatos/' title='LinkedIn' target="_blank">
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='#' title='Instagram' target="_blank">
+            <a href='https://www.instagram.com/iamatos3/' title='Instagram' target="_blank">
               <FaInstagramSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
             <a href='#' title='Download Resume' download>
@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
         </article>
         <article className='hidden md:block'>
-          <img src={heroImg} className='border-2 border-black rounded-lg w-3/4 max-w-sm' />
+          <img src={heroImg} className='border-2 border-black rounded-full w-full h-full max-w-xs transition-transform transform hover:scale-105' />
         </article>
       </div>
     </div>

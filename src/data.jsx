@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
+import { DiMongodb, DiPostgresql } from 'react-icons/di';
 
 export const links = [
   { id: 1, href: '#home', text: 'home' },
@@ -26,6 +27,24 @@ export const skills = [
     title: 'React',
     icon: <FaReact className='h-16 w-16 text-emerald-500' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Node.js',
+    icon: <FaNodeJs className='h-16 w-16 text-emerald-500' />,
+    text: 'Proficiently skilled in Node.js, having a deep understanding of its core concepts and libraries, allowing for the development of complex and high-performance server-side applications.',
+  },
+  {
+    id: nanoid(),
+    title: 'MongoDB',
+    icon: <DiMongodb className='h-16 w-16 text-emerald-500' />,
+    text: 'Possessing a high level of proficiency in MongoDB with the expertise to architect and optimize database structures, facilitating robust and scalable data management solutions for diverse applications.',
+  },
+  {
+    id: nanoid(),
+    title: 'PostgreSQL',
+    icon: <DiPostgresql className='h-16 w-16 text-emerald-500' />,
+    text: 'Being well-versed in PostgreSQL by having the capability to design and manage relational databases, ensuring data integrity and performance in a variety of applications.',
   },
 ];
 
