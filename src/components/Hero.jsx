@@ -1,5 +1,5 @@
 import heroImg from '../assets/portrait.jpg';
-import { FaGithubSquare, FaLinkedin, FaInstagramSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import { BsDownload } from 'react-icons/bs';
 
 const Hero = () => {
@@ -23,7 +23,7 @@ const Hero = () => {
             <a href='https://www.linkedin.com/in/iamatos/' title='LinkedIn' target="_blank">
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='#' title='Download Resume' download>
+            <a href='/IanMatos-SE Resume-2023.pdf' title='Download Resume' download>
               <BsDownload className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
           </div>
