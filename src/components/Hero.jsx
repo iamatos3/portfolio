@@ -23,9 +23,6 @@ const Hero = () => {
             <a href='https://www.linkedin.com/in/iamatos/' title='LinkedIn' target="_blank">
               <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
-            <a href='https://www.instagram.com/iamatos3/' title='Instagram' target="_blank">
-              <FaInstagramSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
-            </a>
             <a href='#' title='Download Resume' download>
               <BsDownload className='h-8 w-8 text-slate-500 hover:text-black duration-300' />
             </a>
