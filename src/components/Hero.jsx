@@ -14,7 +14,7 @@ const Hero = () => {
             Full-Stack Software Engineer
           </p>
           <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-            Turning ideas into interactive reality
+            Turning creative ideas into interactive reality
           </p>
           <div className='flex gap-x-4 mt-4'>
             <a href='https://github.com/iamatos3/' title='GitHub' target="_blank">
